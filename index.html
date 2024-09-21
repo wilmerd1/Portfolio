@@ -1,120 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrés Duque - Ingeniero de Software y Consultor</title>
-    <meta name="description" content="Portfolio de Andrés Duque, Ingeniero de Software y Consultor con más de 10 años de experiencia en TI, especializado en Java, Python y herramientas de Microsoft 365.">
-    <meta name="keywords" content="Ingeniero de Software, Consultor TI, Java, Python, Microsoft 365, Desarrollo de Aplicaciones, Análisis de Datos">
-    <meta name="author" content="Andrés Duque">
-    <link rel="canonical" href="https://www.andresduque.com">
-    <link rel="stylesheet" href="/css/style.css">
-    
+    <meta
+      name="description"
+      content="Portfolio de Andrés Duque, Ingeniero de Software y Consultor con más de 10 años de experiencia en TI, especializado en Java, Python y herramientas de Microsoft 365."
+    />
+    <meta
+      name="keywords"
+      content="Ingeniero de Software, Consultor TI, Java, Python, Microsoft 365, Desarrollo de Aplicaciones, Análisis de Datos"
+    />
+    <meta name="author" content="Andrés Duque" />
+    <link rel="canonical" href="https://www.andresduque.com" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="shortcut icon" href="/img/Back.jpeg" />
+    <!-- Iconos redes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700"
+    />
     <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "Andrés Duque",
-      "jobTitle": "Ingeniero de Software",
-      "description": "Ingeniero de Software con más de 10 años de experiencia en el área de TI. Especializado en Java, Python y herramientas de Microsoft 365.",
-      "email": "dev.andresduque@gmail.com",
-      "url": "https://www.andresduque.com",
-      "sameAs": [
-        "https://www.linkedin.com/in/andresduque",
-        "https://github.com/andresduque"
-      ]
-    }
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Andrés Duque",
+        "jobTitle": "Ingeniero de Software",
+        "description": "Ingeniero de Software con más de 10 años de experiencia en el área de TI. Especializado en Java, Python y herramientas de Microsoft 365.",
+        "email": "dev.andresduque@gmail.com",
+        "url": "https://www.andresduque.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/andresduque",
+          "https://github.com/andresduque"
+        ]
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <img class="header__avatar" src="/img/WADO.jpg" alt="Foto de Andrés Duque" width="150" height="150">
+      <div class="parallax" style="background-position: center 0px">
+        <img
+          class="header__avatar"
+          src="/img/WADO.jpg"
+          alt="Foto de Andrés Duque"
+          width="150"
+          height="150"
+        />
         <h1 class="header__title">Andrés Duque</h1>
-        <p class="header__subtitle">Ingeniero de Software | Ingeniero Industrial</p>
         <p class="header__subtitle">
-            <a href="mailto:dev.andresduque@gmail.com">dev.andresduque@gmail.com</a>
+          Ingeniero de Software | Ingeniero Industrial
         </p>
+        <p class="header__subtitle">
+          <a>dev.andresduque@gmail.com</a>
+        </p>
+      </div>
     </header>
 
     <nav class="nav" aria-label="Navegación principal">
-        <ul class="nav__list">
-            <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
-            <li class="nav__item"><a href="#sobre-mi" class="nav__link">Sobre Mí</a></li>
-            <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
-            <li class="nav__item"><a href="#aplicaciones" class="nav__link">Aplicaciones</a></li>
-            <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#inicio" class="nav__link">Inicio</a>
+        </li>
+        <li class="nav__item">
+          <a href="#sobre-mi" class="nav__link">Sobre Mí</a>
+        </li>
+        <li class="nav__item">
+          <a href="#servicios" class="nav__link">Servicios</a>
+        </li>
+        <li class="nav__item">
+          <a href="#aplicaciones" class="nav__link">Aplicaciones</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contacto" class="nav__link">Contacto</a>
+        </li>
+      </ul>
     </nav>
 
     <main class="container">
-        <section id="sobre-mi" class="section">
-            <h2 class="section__title">Sobre Mí</h2>
-            <p>Soy un Ingeniero de Software con más de 10 años de experiencia en el área de TI. Mi experiencia abarca el desarrollo en Java y Python, así como el uso avanzado de herramientas de Microsoft 365. Me especializo en crear soluciones eficientes y escalables para problemas complejos de software.</p>
-        </section>
+      <section id="sobre-mi" class="section">
+        <h2 class="section__title">Sobre Mí</h2>
+        <p class="sobremi_p">
+          Soy un Ingeniero de Software con más de 10 años de experiencia en el
+          área de TI. Mi experiencia abarca el desarrollo en Java y Python, así
+          como el uso avanzado de herramientas de Microsoft 365. Me especializo
+          en crear soluciones eficientes y escalables para problemas complejos
+          de software.
+        </p>
+      </section>
 
-        <section id="servicios" class="section">
-            <h2 class="section__title">Servicios</h2>
-            <div class="grid">
-                <article class="card card--service">
-                    <h3 class="card__title">Consultoría de Software</h3>
-                    <p class="card__content">Ofrezco asesoramiento experto en arquitectura de software, mejores prácticas de desarrollo y optimización de procesos de TI para mejorar la eficiencia y calidad de sus proyectos.</p>
-                    <a href="#consultor" class="button">Leer Más</a>
-                </article>
-                <article class="card card--service">
-                    <h3 class="card__title">Análisis de Datos con Power BI y Python</h3>
-                    <p class="card__content">Transformo datos en insights accionables utilizando Power BI y Python. Desarrollo dashboards interactivos y modelos predictivos para impulsar la toma de decisiones basada en datos.</p>
-                    <a href="#analisis-datos" class="button">Leer Más</a>
-                </article>
-                <article class="card card--service">
-                    <h3 class="card__title">Desarrollo de Aplicaciones</h3>
-                    <p class="card__content">Diseño y desarrollo aplicaciones web y móviles personalizadas, enfocadas en la experiencia del usuario y utilizando las últimas tecnologías para garantizar soluciones robustas y escalables.</p>
-                    <a href="#desarrollo-apps" class="button">Leer Más</a>
-                </article>
-                <article class="card card--service">
-                    <h3 class="card__title">Pruebas de Automatización</h3>
-                    <p class="card__content">Implemento estrategias de pruebas automatizadas para asegurar la calidad del software, reducir errores y acelerar los ciclos de desarrollo y despliegue.</p>
-                    <a href="#automatizacion" class="button">Leer Más</a>
-                </article>
-            </div>
-        </section>
+      <section id="servicios" class="section">
+        <h2 class="section__title">Servicios</h2>
+        <div class="grid">
+          <article class="card card--service">
+            <h3 class="card__title">Consultoría de Software</h3>
+            <p class="card__content">
+              Ofrezco asesoramiento experto en arquitectura de software, mejores
+              prácticas de desarrollo y optimización de procesos de TI para
+              mejorar la eficiencia y calidad de sus proyectos.
+            </p>
+            <a href="#consultor" class="button">Leer Más</a>
+          </article>
+          <article class="card card--service">
+            <h3 class="card__title">Análisis de Datos con Power BI y Python</h3>
+            <p class="card__content">
+              Transformo datos en insights accionables utilizando Power BI y
+              Python. Desarrollo dashboards interactivos y modelos predictivos
+              para impulsar la toma de decisiones basada en datos.
+            </p>
+            <a href="#analisis-datos" class="button">Leer Más</a>
+          </article>
+          <article class="card card--service">
+            <h3 class="card__title">Desarrollo de Aplicaciones</h3>
+            <p class="card__content">
+              Diseño y desarrollo aplicaciones web y móviles personalizadas,
+              enfocadas en la experiencia del usuario y utilizando las últimas
+              tecnologías para garantizar soluciones robustas y escalables.
+            </p>
+            <a href="#desarrollo-apps" class="button">Leer Más</a>
+          </article>
+          <article class="card card--service">
+            <h3 class="card__title">Pruebas de Automatización</h3>
+            <p class="card__content">
+              Implemento estrategias de pruebas automatizadas para asegurar la
+              calidad del software, reducir errores y acelerar los ciclos de
+              desarrollo y despliegue.
+            </p>
+            <a href="#automatizacion" class="button">Leer Más</a>
+          </article>
+        </div>
+      </section>
 
-        <section id="aplicaciones" class="section">
-            <h2 class="section__title">Aplicaciones</h2>
-            <div class="grid">
-                <article class="card card--app">
-                    <img src="/blog-desarrolladores.jpg" alt="Captura de pantalla del Blog para Desarrolladores" width="300" height="200">
-                    <h3 class="card__title">Blog para Desarrolladores</h3>
-                    <p class="card__content">Plataforma de blog desarrollada con Django y Python, diseñada para compartir conocimientos y mejores prácticas en desarrollo web.</p>
-                    <p>Tecnologías: Web design | Python | Django</p>
-                </article>
-                <article class="card card--app">
-                    <img src="/conversor.jpg" alt="Interfaz del Conversor de Divisas y Temperatura" width="300" height="200">
-                    <h3 class="card__title">Conversor de Divisas y Temperatura</h3>
-                    <p class="card__content">Aplicación de escritorio desarrollada con JavaFX que permite convertir entre diferentes monedas y unidades de temperatura de manera rápida y precisa.</p>
-                    <p>Tecnologías: JavaFx | App Desktop</p>
-                </article>
-                <article class="card card--app">
-                    <img src="/foro.jpg" alt="Página principal del Foro de Discusión" width="300" height="200">
-                    <h3 class="card__title">Foro de Discusión</h3>
-                    <p class="card__content">Plataforma de foro robusta y escalable construida con Spring Boot y MySQL, diseñada para facilitar discusiones y compartir conocimientos en comunidades en línea.</p>
-                    <p>Tecnologías: Java | SpringBoot | MySQL</p>
-                </article>
-            </div>
-        </section>
+      <section id="aplicaciones" class="section">
+        <h2 class="section__title">Aplicaciones</h2>
+        <div class="grid">
 
-        <section id="contacto" class="section">
-            <h2 class="section__title">Contacto</h2>
-            <p>¿Interesado en trabajar juntos? Contáctame para discutir cómo puedo ayudarte con tus proyectos de software.</p>
-            <ul>
-                <li>Email: <a href="mailto:dev.andresduque@gmail.com">dev.andresduque@gmail.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/andresduque" target="_blank" rel="noopener noreferrer">linkedin.com/in/andresduque</a></li>
-                <li>GitHub: <a href="https://github.com/andresduque" target="_blank" rel="noopener noreferrer">github.com/andresduque</a></li>
-            </ul>
-        </section>
+            
+          <article class="card card--app">
+            <img
+              src="/img/Code_Blog.png"
+              alt="Captura de pantalla del Blog para Desarrolladores"
+              width="300"
+              height="200"
+            />
+            <h3 class="card__title">Blog para Desarrolladores</h3>
+            <p class="card__content">
+              Plataforma de blog desarrollada con Django y Python, diseñada para
+              compartir conocimientos y mejores prácticas en desarrollo web.
+            </p>
+            <p>Tecnologías: Web design | Python | Django</p>
+          </article>
+
+
+          <article class="card card--app">
+            <img
+              src="/img/Conversor.gif"
+              alt="Interfaz del Conversor de Divisas y Temperatura"
+              width="300"
+              height="200"
+            />
+            <h3 class="card__title">Conversor de Divisas y Temperatura</h3>
+            <p class="card__content">
+              Aplicación de escritorio desarrollada con JavaFX que permite
+              convertir entre diferentes monedas y unidades de temperatura de
+              manera rápida y precisa.
+            </p>
+            <p>Tecnologías: JavaFx | App Desktop</p>
+          </article>
+
+
+          <article class="card card--app">
+            <img
+              src="/img/alura.png"
+              alt="Página principal del Foro de Discusión"
+              width="300"
+              height="200"
+            />
+            <h3 class="card__title">Foro de Discusión</h3>
+            <p class="card__content">
+              Plataforma de foro robusta y escalable construida con Spring Boot
+              y MySQL, diseñada para facilitar discusiones y compartir
+              conocimientos en comunidades en línea.
+            </p>
+            <p>Tecnologías: Java | SpringBoot | MySQL</p>
+          </article>
+
+
+        </div>
+      </section>
+
+      <section id="contacto" class="section">
+        <h2 class="section__title">Contacto</h2>
+    
+      </section>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <p>&copy; 2024 Andrés Duque - Todos los derechos reservados</p>
+    </footer> -->
+
+    
+    <footer class="footer">
+        <nav class="footer-nav">
+            <span><a href="#">                                          <i class="fas fa-home">         </i></a></span>
+            <span><a href="https://wa.me/+573142534881">                <i class="fas fa-phone-square"> </i></a></span>
+            <span><a href="https://github.com/wilmerd1">                <i class="fab fa-github">       </i></a></span>
+            <span><a href="https://x.com/adzaux">                       <i class="fab fa-twitter">      </i></a></span>
+            <span><a href="https://www.linkedin.com/in/wado/">          <i class="fab fa-linkedin">     </i></a></span>
+            <span><a href="https://www.facebook.com/aduque.w">          <i class="fab fa-facebook-f">   </i></a></span>
+            <span><a href="https://www.instagram.com/andresduquew/">    <i class="fab fa-instagram">    </i></a></span>
+          
+        </nav>
+       
+        <div class="email">
+            Andrés Duque | dev.andresduque@gmail.com
+        </div>
+        <div class="copyright">
+            Copyright © 2024.
+        </div>
     </footer>
-</body>
+  </body>
 </html>
